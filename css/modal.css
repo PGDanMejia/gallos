@@ -1,0 +1,31 @@
+.info-importar{
+    margin-left: 27%;
+}
+
+.modal-body p{
+    text-align: justify;
+}
+
+.info-imagenes{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.modal-body span{
+    font-style: italic;
+}
+
+.entendido {
+    border-radius: 25px;
+    font-size: 13px;
+    border: none;
+    background-color: #5ea70bd1;
+    color: #fff;
+    outline: 0;
+    border: 1px solid #4f5d61;
+    cursor: pointer;
+    letter-spacing: 1px;
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}

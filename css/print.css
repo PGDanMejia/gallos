@@ -1,0 +1,139 @@
+
+@media print {
+    .clear {
+        clear: both;
+    }
+
+    /*h1 {
+        text-align: center;
+        margin: 50px 0;
+        font-size: 40px;
+        color: #333;
+        font-family: 'FrancoisOne';
+    }*/
+
+    #carnet-imprimr{
+        size: 5em;
+        margin: auto;
+    }
+
+    .prueba{
+        text-align: center;
+        size: 20px;
+       
+    }
+
+    main#main{
+        margin-left: 0%!important;
+    }
+    nav#menu,#barra-superior,#cierre,#lb-cerrar {
+        display: none!important ;
+    }
+
+    body#login{
+        background-image: none;
+    }
+
+    #contenido{
+        border: none;
+    }
+
+    #btnImprimir, #btnGuardar{
+        display: none;
+    }
+
+    .titulo {
+        color: #0d5d97;
+    }
+
+    img#empresa{
+        width: 35%;
+        display: inline-block;
+        margin-top: -33px;
+        margin-left: 33%;
+        margin-bottom: -68px;
+    }
+
+    img#barras{
+        width: 50%;
+        margin: 10% 39% -31% 25%;
+    }
+    p#encabezado {
+        color: #0d5d97;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    p#info{
+        font-size: 17px;
+    }
+
+    #info {
+        width: 0% !important ;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0% !important ;
+    }
+
+    p {
+        margin-top: 5px;
+    }
+
+    div#datos{
+        margin-left: 180px;
+        margin-top: -124px;
+    }
+
+    div#datos2{
+        margin-left: 0%;
+        text-align: center;
+        margin-top: 166px;
+    }
+
+    img#perfil{
+        width: 110px!important;
+        height: 110px;
+        border: 1.09px solid #0d5d97;
+        margin-top: 31px;
+        margin-left: 25px;
+
+    }
+    .container {
+        background:url("../images/b5.jpg");
+        /*background-attachment: fixed;*/
+        background-position: center;
+        background-size: cover;
+        width: 543px;
+        height: 338px;
+        margin: 50px auto;
+        border-radius: 8px;
+        border: 2px solid black;
+    }
+
+    .container2 {
+        background-color: white;
+        /*background-attachment: fixed;*/
+        background-position: center;
+        background-size: cover;
+        width: 543px;
+        height: 338px;
+        margin: 50px auto;
+        border-radius: 8px;
+        border: 2px solid black;
+    }
+    .paymentbox {
+        
+        padding: 20px;
+    }
+
+    .paymentbox p {
+        color: #000000;
+        font-size: 20px;
+        font-family: candara;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+
+
+    
+}

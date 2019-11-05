@@ -1,0 +1,689 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+/*-- Reset Code --*/
+html,body,div,span,applet,object,iframe,h1,h3,h4,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+.underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*img[width],img[height]{width:auto;height:auto;} wordpress hack to reset the attributes (while making responsive) */
+/*-- Reset Code --*/
+
+/*-- Fonts --*/
+@font-face{
+	font-family: 'Oxygen-Regular';
+	src:url(../fonts/Oxygen-Regular.ttf) format('truetype');
+}
+@font-face{
+    font-family: 'FrancoisOne';
+    src:url(../fonts/FrancoisOne.ttf) format('truetype');
+}
+/*-- Fonts --*/
+
+/*-- Index-Page-Styling --*/
+body {
+    background-color: #F8F8FF;
+    font-family: 'Oxygen-Regular';
+}
+
+
+
+
+    .clear {
+        clear: both;
+    }
+
+    /*h1 {
+        text-align: center;
+        margin: 50px 0;
+        font-size: 40px;
+        color: #333;
+        font-family: 'FrancoisOne';
+    }*/
+
+    .titulo {
+        color: #0d5d97;
+    }
+
+    img#empresa{
+        width: 35%;
+        display: inline-block;
+        margin-top: -33px;
+        margin-left: 33%;
+        margin-bottom: -68px;
+    }
+
+    img#barras{
+        width: 50%;
+        margin: 10% 39% -31% 25%;
+    }
+    p#encabezado {
+        color: #0d5d97;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    p#info{
+        font-size: 17px;
+    }
+
+    #info {
+        width: 0% !important ;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0% !important ;
+    }
+
+    p {
+        margin-top: 5px;
+    }
+
+    div#datos{
+        margin-left: 180px;
+        margin-top: -124px;
+    }
+
+    div#datos2{
+        margin-left: 0%;
+        text-align: center;
+        margin-top: 166px;
+    }
+
+    img#perfil{
+        width: 110px!important;
+        height: 110px;
+        border: 1.09px solid #0d5d97;
+        margin-top: 31px;
+        margin-left: 25px;
+
+    }
+    .container {
+        background:url("../images/b5.jpg");
+        /*background-attachment: fixed;*/
+        background-position: center;
+        background-size: cover;
+        width: 543px;
+        height: 338px;
+        margin: 50px auto;
+        border-radius: 8px;
+        border: 2px solid black;
+    }
+
+    .container2 {
+        background-color: white;
+        /*background-attachment: fixed;*/
+        background-position: center;
+        background-size: cover;
+        width: 543px;
+        height: 338px;
+        margin: 50px auto;
+        border-radius: 8px;
+        border: 2px solid black;
+    }
+    .paymentbox {
+        
+        padding: 20px;
+    }
+
+    .paymentbox p {
+        color: #000000;
+        font-size: 20px;
+        font-family: candara;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+
+
+input.name {
+    width: 70%;
+    padding: 10px 0;
+    font-size: 18px;
+    margin: 15px 0;
+    border: none;
+    outline: none;
+    text-indent: 5px;
+    color: #FFFFFF;
+    background-color: rgba(80, 119, 136, 0);
+}
+
+input.ac {
+    width: 92%;
+    padding: 10px 40px 10px 0;
+    font-size: 18px;
+    margin: 15px 0;
+    border: none;
+    outline: none;
+    text-indent: 5px;
+    color: #FFFFFF;
+    background: rgba(80, 119, 136, 0) url("../images/card.png") no-repeat 475px 9px;
+}
+
+.exp {
+    float: left;
+    width: 45%;
+    margin-right: 45px;
+}
+input.expire {
+    width: 100%;
+    margin: 15px 0 0 0;
+    padding: 10px 0;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    text-indent: 5px;
+    background-color: rgba(80, 119, 136, 0);
+}
+
+.cvv {
+    width: 45%;
+    float: left;
+}
+
+input.cvvv {
+    width: 100%;
+    margin: 15px 0 0 0;
+    padding: 10px 0;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    text-indent: 5px;
+    background-color: rgba(80, 119, 136, 0);
+}
+
+input.name:hover, input.ac:hover, input.expire:hover, input.cvvv:hover {
+    outline: 1px solid #EEE;
+      -webkit-transition: all 0.1s ease-in-out;
+      -moz-transition: all 0.1s ease-in-out;
+      -o-transition: all 0.1s ease-in-out;
+      transition: all 0.1s ease-in-out;
+}
+
+::-webkit-input-placeholder {
+   color: #FFF;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #FFF;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #FFF;  
+}
+
+:-ms-input-placeholder {  
+   color: #FFF;  
+}
+
+a.pay {
+    color: #EEE;
+    margin: 0 0 0 65%;
+    font-weight: bold;
+    font-size: 20px;
+}
+a.pay:hover {
+    color: #FFF;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.footer p {
+    font-family: 'Oxygen-Regular';
+    color: #000;
+}
+.footer a {
+    color: #000;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #EF4C89;
+    text-decoration: underline;
+      -webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;
+}
+
+/*-- Index-Page-Styling --*/
+
+
+/*--- Responsinator Code ---*/
+
+@media screen and (max-width:1920px) {
+    h1 {
+        margin: 100px 0;
+    }
+    .container {
+        width: 30%;
+    }
+    .container2 {
+        width: 30%;
+    }
+   
+    .footer {
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width:1680px) {
+    .container {
+        width: 34%;
+    }
+    .container2 {
+        width: 34%;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .container {
+        width: 36%;
+    }
+    .container2 {
+        width: 36%;
+    }
+    .footer {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .container {
+        width: 40%;
+    }
+    .container2 {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:1366px) {
+    h1 {
+        margin: 50px 0;
+    }
+    .container {
+        width: 40%;
+    }
+    .container2 {
+        width: 40%;
+    }
+    
+    .footer {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .container {
+        width: 42.5%;
+    }
+    .container2 {
+        width: 42.5%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .container {
+        width: 53%;
+    }
+    .container2 {
+        width: 53%;
+    }
+}
+
+@media screen and (max-width:966px) {
+    .container {
+        width: 56%;
+    }
+    .container2 {
+        width: 56%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .container {
+        width: 68%;
+    }
+    .container2 {
+        width: 68%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    h1 {
+        font-size: 35px;
+    }
+    .container {
+        width: 71%;
+    }
+    .container2 {
+        width: 71%;
+    }
+   
+}
+
+@media screen and (max-width:736px) {
+    .container {
+        width: 75.5%;
+    }
+    .container2 {
+        width: 75.5%;
+    }
+    .paymentbox p {
+        font-size: 17px;
+    }
+    input.name, input.ac, input.expire, input.cvvv {
+        padding: 8px 0;
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    .footer p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:667px) {
+    h1 {
+        font-size: 30px;
+    }
+    .container {
+        width: 83.5%;
+    }
+    .container2 {
+        width: 83.5%;
+    }
+    .paymentbox p {
+        font-size: 16px;
+    }
+    input.name, input.expire, input.cvvv {
+        padding: 8px 0;
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    input.ac {
+        width: 100%;
+        padding: 8px 0;
+        font-size: 16px;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width:640px) {
+    
+    input.ac {
+        background: rgba(80, 119, 136, 0) url("../images/card.png") no-repeat 450px 5px;
+    }
+}
+
+@media screen and (max-width:603px) {
+    h1 {
+        font-size: 28px;
+    }
+    .container {
+        width: 90%;
+    }
+    .container2 {
+        width: 90%;
+    }
+    .paymentbox p {
+        font-size: 16px;
+    }
+
+    input.name, input.ac, input.expire, input.cvvv {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+    input.name, input.expire, input.cvvv {
+        margin: 10px 0;
+    }
+    input.ac {
+        margin: 10px 0;
+        background: rgba(80, 119, 136, 0) url("../images/card.png") no-repeat 455px 9px;
+    }
+    .footer p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:568px) {
+    
+    .paymentbox p {
+        font-size: 16px;
+    }
+    input.ac {
+        background: rgba(80, 119, 136, 0) url("../images/card.png") no-repeat 430px 9px;
+    }
+    input.name, input.expire, input.cvvv {
+        margin: 7px 0;
+        font-size: 16px;
+    }
+    input.ac {
+        margin: 7px 0;
+        font-size: 16px;
+        width: 100%;
+    }
+    a.pay {
+        margin: 0 0 0 65%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:533px) {
+    h1 {
+        font-size: 23px;
+    }
+    .container {
+        width: 80%;
+    }
+    .container2 {
+        width: 80%;
+    }
+    .paymentbox {
+        background: url("../images/logo1.png") no-repeat 342px -5px;
+        padding: 10px 0 10px 5px;
+    }
+    .paymentbox p {
+        font-size: 15px;
+    }
+    input.name, input.expire, input.cvvv {
+        margin: 7px 0;
+        font-size: 15px;
+    }
+    input.ac {
+        width: 98%;
+        margin: 7px 0;
+        font-size: 15px;
+        background: rgba(80, 119, 136, 0) url("../images/card.png") no-repeat 375px 5px;
+    }
+    .exp {
+        margin-right: 20px;
+    }
+    a.pay {
+        margin: 0 0 0 65%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .container {
+        width: 90%;
+    }
+    .container2 {
+        width: 90%;
+    }
+    .paymentbox {
+        background: url("../images/logo1.png") no-repeat 347px -5px;
+        padding: 10px 0 10px 5px;
+    }
+    input.ac {
+        background: rgba(80, 119, 136, 0) url("../images/card.png") no-repeat 375px 5px;
+    }
+    a.pay {
+        font-weight: lighter;
+    }
+}
+
+@media screen and (max-width:414px) {
+    h1 {
+        font-size: 25px;
+    }
+    .container {
+        width: 95%;
+    }
+    .container2 {
+        width: 95%;
+    }
+    .paymentbox {
+        background: url("../images/logo1.png") no-repeat 324px -5px;
+        padding: 10px 0 10px 5px;
+    }
+    .paymentbox p {
+        font-size: 14px;
+    }
+    input.name, input.expire, input.cvvv {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+    input.ac {
+        margin: 5px 0;
+        width: 98%;
+        font-size: 14px;
+        background: rgba(80, 119, 136, 0) url("../images/card.png") no-repeat 350px 5px;
+    }
+    .exp {
+        margin-right: 15px;
+    }
+    a.pay {
+        margin: 0 0 0 55%;
+    }
+}
+
+@media screen and (max-width:384px) {
+   
+    input.ac {
+        background: rgba(80, 119, 136, 0) url("../images/card.png") no-repeat 315px 5px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    h1 {
+        font-size: 25px;
+    }
+    .container {
+        width: 95%;
+    }
+    .container2 {
+        width: 95%;
+    }
+    .paymentbox p {
+        font-size: 14px;
+    }
+    input.name, input.expire, input.cvvv {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+    input.ac {
+        margin: 5px 0;
+        width: 98%;
+        font-size: 14px;
+        background: rgba(80, 119, 136, 0) url("../images/card.png") no-repeat 313px 5px;
+    }
+    .exp {
+        margin-right: 15px;
+    }
+    a.pay {
+        margin: 0 0 0 55%;
+    }
+}
+
+@media screen and (max-width:360px) {
+    
+    input.ac {
+        background: rgba(80, 119, 136, 0) url("../images/card.png") no-repeat 300px 5px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    h1 {
+        font-size: 23px;
+        margin: 30px 0;
+    }
+    .container {
+        width: 95%;
+    }
+    .container2 {
+        width: 95%;
+    }
+    
+    .paymentbox p {
+        font-size: 14px;
+    }
+    input.name, input.expire, input.cvvv {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+    input.ac {
+        margin: 5px 0;
+        width: 98%;
+        font-size: 14px;
+        background: rgba(80, 119, 136, 0) url("../images/card.png") no-repeat 249px 5px;
+    }
+    .exp {
+        margin-right: 15px;
+    }
+    a.pay {
+        margin: 0 0 0 50%;
+        font-size: 16px;
+    }
+    .footer {
+        margin: 50px 0 20px 0;
+    }
+}
+
+@media screen and (max-width:240px) {
+    h1 {
+        font-size: 20px;
+    }
+   
+    .paymentbox p {
+        font-size: 13px;
+    }
+    input.name, input.ac, input.expire, input.cvvv {
+        font-size: 13px;
+    }
+    input.ac {
+        width: 95%;
+    }
+    a.pay {
+        font-size: 14px;
+        margin: 0 0 0 35%;
+    }
+}
+
+/*--- Responsinator Code ---*/

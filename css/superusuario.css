@@ -1,0 +1,67 @@
+#contenido{
+    border: 1px solid #000;
+    width: 95%;
+    height: fit-content;
+    background: rgba(255,255,255,0.8);
+   
+}
+
+#menu{
+    background: #0b66a7d1;
+}
+
+a{
+    color: white;
+}
+
+ul li {
+    margin-top: 30px;
+}
+
+h5{
+    margin-top: 25px;
+}
+
+.registrar{
+    display: inline !important;
+    margin-top: 27px! important;
+}
+
+.formularios{
+    display: flex;
+}
+
+
+ form{
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+
+.form-labels{
+    width: 50%;
+    text-align: center;
+    margin-left: 12%;
+}
+
+.labels{
+     margin-top: 24px;
+    
+}
+
+.form-inputs{
+    margin-left: 3%;
+    width: 150%;
+
+}
+
+.f-inputs{
+    width: 70%!important;
+}
+
+
+.form-control {
+    margin: auto;
+    width: 60%;
+  }
